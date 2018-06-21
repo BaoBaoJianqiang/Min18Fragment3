@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is fragment 1"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/load_fragment2_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="加载第二个Fragment"/>
+
+    <Button
+        android:id="@+id/loadHostFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="加载宿主中的Fragment"/>
+
+    <Button
+        android:id="@+id/loadPlugin2Fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="加载Plugin2中的Fragment"/>
+
+</LinearLayout>
