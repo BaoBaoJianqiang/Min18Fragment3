@@ -11,6 +11,7 @@ import com.example.jianqiang.mypluginlibrary.AppConstants;
 import com.example.jianqiang.mypluginlibrary.BaseFragment;
 import com.example.jianqiang.mypluginlibrary.PluginItem;
 import com.example.jianqiang.mypluginlibrary.PluginManager;
+import com.example.jianqiang.mypluginlibrary.RefInvoke;
 
 public class Fragment1 extends BaseFragment {
 
@@ -39,7 +40,7 @@ public class Fragment1 extends BaseFragment {
 
 			@Override
 			public void onClick(View arg0) {
-				Fragment fragment3 = (Fragment)RefInvoke.createObject("jianqiang.com.hostapp.Fragment3");
+				Fragment fragment3 = (Fragment) RefInvoke.createObject("jianqiang.com.hostapp.Fragment3");
 				Bundle args = new Bundle();
 				args.putString("username", "baobao");
 				fragment3.setArguments(args);
